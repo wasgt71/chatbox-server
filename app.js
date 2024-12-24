@@ -22,5 +22,5 @@ app.use("/chat", chatBotRouter);
 app.use("/shopify", shopifyRouter);
 
 app.listen(port, () => {
-  console.log(`Nuusero Chat Bot Running`);
+  console.log(`Nuusero Chat Bot Running on port ${port}`);
 });
